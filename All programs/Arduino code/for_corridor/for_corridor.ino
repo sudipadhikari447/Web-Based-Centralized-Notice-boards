@@ -12,7 +12,7 @@
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS,  TFT_DC, TFT_RST);
 
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };//You can edit this MAC address for other microcontroller with their own.
-byte ip[] = { 192, 168, 10, 101 }; //Change this IP to the one you bind to that particular microcontroller during router configuration.
+byte ip[] = { 192, 168, 10, 101 }; 
 byte server[] = { 192, 168, 10, 100 };
 
 EthernetClient client;
