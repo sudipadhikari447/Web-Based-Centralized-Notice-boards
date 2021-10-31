@@ -9,7 +9,7 @@
 #define TFT_SCLK 13   
 #define TFT_MOSI 11   
 
-Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS,  TFT_DC, TFT_RST);
+Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS,  TFT_DC, TFT_RST); //adafruit library
 
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xEF };
 byte ip[] = { 192, 168, 10, 103 };
