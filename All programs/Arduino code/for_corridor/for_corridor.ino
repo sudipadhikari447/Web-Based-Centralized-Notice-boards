@@ -57,7 +57,7 @@ void loop()
      client.println();
      if (client.available()) {
         String line = client.readString();
-        tft.fillScreen(ST7735_BLACK); 
+        //tft.fillScreen(ST7735_BLACK); this one is not necessary, as screen is black already.
         tft.setTextColor(ST7735_WHITE);
         tft.setTextSize(1);
         tft.setCursor(0,0);
